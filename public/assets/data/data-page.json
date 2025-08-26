@@ -4,5 +4,28 @@
     "twitter":"https://x.com/",
     "instagram":"https://www.instagram.com/",
     "tumblr":"https://www.tumblr.com/",
-    "email": "contact@urkuportfolio.com"
+    "email": "contact@urkuportfolio.com",
+    "teamMembers": [
+        {
+            "name":"Robert T. Williams",
+            "position":"Graphic Designer",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+            "userName":"robertwilliams",
+            "profilePictureUrl": "assets/img/team-1.jpg"
+        },
+        {
+            "name":"Angelina B. Widow",
+            "position":"Founder / CEO",
+            "description":"Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+            "userName":"angelinawidow",
+            "profilePictureUrl": "assets/img/team-2.jpg"
+        },
+        {
+            "name":"Patrick Anderson",
+            "position":"Art Director",
+            "description":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "userName":"patrickanderson",
+            "profilePictureUrl": "assets/img/team-3.jpg"
+        }
+    ]
 }

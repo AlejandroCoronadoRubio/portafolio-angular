@@ -1,3 +1,5 @@
+import { TeamMember } from "./TeamMember.interface"
+
 export interface InfoPage{
     title?: string
     facebook?: string
@@ -5,4 +7,5 @@ export interface InfoPage{
     instagram?: string
     tumblr?: string
     email?: string
+    teamMembers?: TeamMember[]
 }
