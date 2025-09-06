@@ -11,12 +11,15 @@ export class InfoPageService {
   private _infoPage: InfoPage = {};
 
   constructor(private httpClient: HttpClient) {
-      console.log("InfoPage service ready");
+      this.loadDataPage();
+  }
+
+  private loadDataPage() {
+    console.log("Fetching info page");
 
       this.httpClient.get('assets/data/data-page.json')
       .subscribe((response: InfoPage) => { 
         this._infoPage = response;
-        console.log(this.infoPage)
       });
   }
 
